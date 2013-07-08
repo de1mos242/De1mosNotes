@@ -33,6 +33,7 @@ gem 'jquery-rails', '~> 2.0.0'
 group :production do
 	# Use unicorn as the app server
 	gem 'unicorn'
+	gem 'pg'
 end
 
 # Deploy with Capistrano
