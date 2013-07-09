@@ -37,7 +37,8 @@ group :production do
 end
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
+gem 'rvm-capistrano'
 
 # gem 'taps'
 

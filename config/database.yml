@@ -20,7 +20,8 @@ test:
 
 production:
   adapter: postgresql
-  encoding: unicode
-  database: 
-  username: 
-  password: 
+  database: de1mos_notes_db
+  username: de1mos_notes_user
+  password: 1234
+  host: localhost
+  encoding: UTF8
